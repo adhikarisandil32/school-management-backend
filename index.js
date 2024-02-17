@@ -14,7 +14,7 @@ mongoose
     server.listen(PORT, () => {
       console.log(`server ready at port ${PORT}`)
 
-      // addFieldToAllDocuments()
+      addFieldToAllDocuments()
     })
   })
   .catch((err) => {
